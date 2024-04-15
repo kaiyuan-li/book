@@ -14,7 +14,8 @@ gh auth login
 | --- | --- |
 | checkout branch | `git checkout <branch name>` |
 | create branch | `git branch <branch name>` |
-| remove branch | `git branch --delete <branch name>` |
+| remove local branch | `git branch -D <branch name>` |
+| remove remote branch | `git push origin --delete <branch name>` |
 | list branch | `git branch` |
 | sync local branch to remote origin/main | `git fetch origin && git merge origin/main` |
 
