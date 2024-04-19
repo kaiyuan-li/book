@@ -29,6 +29,8 @@ gh auth login
 | remove all untracked files | `git restore .` |
 | move head to a commit and discard changes after | `git reset --hard <COMMIT_ID>` |
 | force syncing remote to local | `git push --force` |
+| rebase to main | `git checkout main && git pull && git checkout <FEATURE> && git rebase main` |
+| merge to main | use `sqash and merge` |
 
 ## Files
 | description | command|
