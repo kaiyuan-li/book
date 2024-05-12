@@ -6,5 +6,6 @@
 - [rust](rust/readme.md)
   - [tokio](rust/tokio.md)
 - [git](git/readme.md)
+- [telegram](telegram/readme.md)
 - [PyTorch](pytorch/readme.md)
 - [DRL](drl/readme.md)
