@@ -16,3 +16,7 @@
       1. `git clone https://github.com/gpakosz/.tmux.git ~/.tmux`
       1. `ln -s ~/.tmux/.tmux.conf ~/.tmux.conf`
       1. add to zshrc: `work() { tmux new-session -A -s ${1:-work}; }`
+
+  1. github
+      1. `curl -Lo gh-cli.rpm https://github.com/cli/cli/releases/download/v2.30.0/gh_2.30.0_linux_arm64.rpm`
+      1. `sudo yum install -y ./gh-cli.rpm`
