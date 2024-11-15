@@ -70,17 +70,90 @@ See [here](https://www.smartick.com/blog/mathematics/addition-and-subtraction/re
 
 
 ## Practice Problems
+Try solving these practice problems! Leave plenty of space to work out your solution using vertical addition.
 
-1. Calculate: 234 + 567
-2. Calculate: 45 + 32
-3. Calculate: 123 + 456
-4. What is the sum of the first five positive integers?
+1. In Minecraft, you have 127 iron ingots and your friend gives you 85 more.
+   How many iron ingots do you have now?
 
-[Solutions](#solutions)
 
-### Solutions
 
-1. 234 + 567 = 801
-2. 45 + 32 = 77
-3. 123 + 456 = 579
-4. 1 + 2 + 3 + 4 + 5 = 15 
+
+
+
+
+
+2. In a chest, you found 234 arrows and crafted 189 more arrows.
+   How many arrows do you have in total?
+
+
+
+
+
+
+
+
+
+3. Your diamond pickaxe has 892 durability points and you repair it for 567 more points.
+   What's the total durability now?
+
+
+
+
+
+
+
+
+
+4. You collected 445 experience points from mining and 378 points from fighting monsters.
+   How many experience points did you earn in total?
+
+
+
+
+
+
+
+
+
+5. For your castle, you gathered 563 stone blocks from a quarry and 428 from a mountain.
+   How many stone blocks do you have altogether?
+
+
+
+
+
+
+
+
+
+6. Luigi collected 89 star bits in the first galaxy and 134 star bits in the second galaxy.
+   How many star bits does Luigi have now?
+
+
+
+
+
+
+
+
+
+7. In Brawl Stars, Spike earned 348 trophies in Gem Grab and 276 trophies in Showdown.
+   What's his total trophy count from these modes?
+
+
+
+
+
+
+
+
+
+8. Steve crafted 128 torches from coal and found another 96 torches in dungeons.
+   How many torches does Steve have in total?
+
+
+
+
+
+
+
