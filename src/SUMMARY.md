@@ -13,5 +13,8 @@
 - [DRL](drl/readme.md)
 - [S3 + RemoteFS](s3/readme.md)
 - [CentOS Bootstrapping](centos/readme.md)
+- [Math](math/readme.md)
+  - [Addition](math/addition.md)
+  - [Subtraction](math/subtraction.md)
 - [Thoughts](thoughts/readme.md)
   - [Emotional Value](thoughts/emotional_value.md)
