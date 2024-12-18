@@ -34,6 +34,9 @@
 | `` | position before last jump |
 | `:ju` | list of jumps |
 | `C-o C-i` | forward / backward around jumps |
+| `"+` | system clipboard register |
+| `"0` | default yank register |
+| `"_` | blackhole register | 
 
 
 
