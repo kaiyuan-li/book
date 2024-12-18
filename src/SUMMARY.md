@@ -6,6 +6,7 @@
   - [Operations](vim/operations.md)
 - [rust](rust/readme.md)
   - [tokio](rust/tokio.md)
+  - [trait](./rust/trait.md)
 - [git](git/readme.md)
 - [telegram](telegram/readme.md)
 - [PyTorch](pytorch/readme.md)
