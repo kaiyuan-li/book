@@ -43,7 +43,7 @@ Plugin 'VundleVim/Vundle.vim'
 
 Plugin 'scrooloose/nerdtree'
 Plugin 'kien/ctrlp.vim'
-Plugin 'NLKNguyen/papercolor-theme'
+Plugin 'google/vim-colorscheme-primary'
 Plugin 'vim-airline/vim-airline'
 
 " All of your Plugins must be added before the following line
@@ -69,10 +69,11 @@ nmap <C-l> <C-w>l
 nmap <C-n> :NERDTree<CR>
 nmap <C-p> :CtrlP<CR>
 
-syntax enable
+syntax on
 set t_Co=256
 set background=dark
-colorscheme PaperColor
+colorscheme primary
 set number
+set paste
 ```
 
