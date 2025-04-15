@@ -1,5 +1,7 @@
 # Install
 
+NeoVim installation reference: https://gist.github.com/kawaz/393c7f62fe6e857cc3d9
+
 ## Install NeoVim on Amazon Liux 3
 
 ```
@@ -14,6 +16,31 @@ cd neovim
 make CMAKE_BUILD_TYPE=Release
 sudo make install
 )
+```
+
+## Install NeoVim on Amazon Linux 2
+
+```
+sudo yum install openssl-devel
+# Find latest version of cmake at https://cmake.org/download/
+wget https://github.com/Kitware/CMake/releases/download/v3.31.4/cmake-3.31.4.tar.gz
+tar -xvzf cmake-3.31.4.tar.gz
+cd cmake-3.31.4
+# optional to keep long running process alive:
+tmux new
+./bootstrap
+make
+sudo make install
+
+
+export PATH="/usr/local/bin:$PATH"
+
+# Updated build instructions: https://github.com/neovim/neovim/blob/master/BUILD.md#quick-start
+git clone https://github.com/neovim/neovim
+cd neovim
+git checkout stable
+make CMAKE_BUILD_TYPE=RelWithDebInfo
+sudo make install
 ```
 
 Then install LazyVim and add support for rust.
