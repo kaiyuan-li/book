@@ -12,19 +12,8 @@
       1. `source ~/.zshrc`
       1. install zsh-autosuggestions: [ref](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
       1. install zsh-syntax-highlighting: [ref](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
-
-  1. github
-      1. `curl -Lo gh-cli.rpm https://github.com/cli/cli/releases/download/v2.30.0/gh_2.30.0_linux_arm64.rpm`
-      1. `sudo yum install -y ./gh-cli.rpm`
-
-  1. docker
-      1. `sudo dnf update -y`
-      1. `sudo dnf install -y docker`
-      1. `sudo systemctl enable docker`
-      1. `sudo curl -L "https://github.com/docker/compose/releases/download/$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep -oP '"tag_name": "\K(.*)(?=")')/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
-      1. `sudo chmod +x /usr/local/bin/docker-compose`
-      1. `docker-compose --version`
-    
+<<<<<<< Updated upstream
+=======
   1. tmux
       1. `git clone https://github.com/gpakosz/.tmux.git ~/.tmux`
       1. `ln -s ~/.tmux/.tmux.conf ~/.tmux.conf`
@@ -32,14 +21,8 @@
 ```
 # ~/.tmux.conf
 
-# unbind default prefix and set it to ctrl-a
-unbind C-b
-set -g prefix C-a
-bind C-a send-prefix
-
 # make delay shorter
 set -sg escape-time 0
-
 
 ### key bindings ###
 bind r source-file ~/.tmux.conf \; display ".tmux.conf reloaded!"
@@ -70,3 +53,15 @@ bind p paste-buffer
 
 set-option -g default-shell "/bin/zsh"
 ```
+
+  1. github
+      1. `curl -Lo gh-cli.rpm https://github.com/cli/cli/releases/download/v2.30.0/gh_2.30.0_linux_arm64.rpm`
+      1. `sudo yum install -y ./gh-cli.rpm`
+
+  1. docker
+      1. `sudo dnf update -y`
+      1. `sudo dnf install -y docker`
+      1. `sudo systemctl enable docker`
+      1. `sudo curl -L "https://github.com/docker/compose/releases/download/$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep -oP '"tag_name": "\K(.*)(?=")')/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
+      1. `sudo chmod +x /usr/local/bin/docker-compose`
+      1. `docker-compose --version`
