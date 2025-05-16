@@ -11,9 +11,15 @@
       1. change theme to it in `~/.zshrc`: `ZSH_THEME="powerlevel10k/powerlevel10k"`
       1. `source ~/.zshrc`
       1. install zsh-autosuggestions: [ref](https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md#oh-my-zsh)
+         ```
+         git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+         ```
       1. install zsh-syntax-highlighting: [ref](https://github.com/zsh-users/zsh-syntax-highlighting/blob/master/INSTALL.md#oh-my-zsh)
-<<<<<<< Updated upstream
-=======
+         ```
+         git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+         ```
+
+
   1. tmux
       1. `git clone https://github.com/gpakosz/.tmux.git ~/.tmux`
       1. `ln -s ~/.tmux/.tmux.conf ~/.tmux.conf`
@@ -65,3 +71,18 @@ set-option -g default-shell "/bin/zsh"
       1. `sudo curl -L "https://github.com/docker/compose/releases/download/$(curl -s https://api.github.com/repos/docker/compose/releases/latest | grep -oP '"tag_name": "\K(.*)(?=")')/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose`
       1. `sudo chmod +x /usr/local/bin/docker-compose`
       1. `docker-compose --version`
+    
+    1. mosh
+```
+# Install dependencies
+sudo yum groupinstall "Development Tools" -y
+sudo yum install openssl-devel protobuf-devel ncurses-devel zlib-devel perl cmake -y
+
+# Download and build Mosh
+curl -L -O https://github.com/mobile-shell/mosh/releases/download/mosh-1.3.2/mosh-1.3.2.tar.gz
+tar -xzf mosh-1.3.2.tar.gz
+cd mosh-1.3.2
+./configure
+make
+sudo make install
+```
