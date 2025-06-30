@@ -17,7 +17,9 @@
 
 ## Real - Physical World & Human Knowledge  
 - [Real](real/README.md)
-  - [Learning Techniques](real/learn/readme.md)
+  - [Methodology](real/methodology/README.md)
+    - [Work](real/methodology/work.md)
+    - [Learn](real/methodology/learn.md)
   - [Medical](real/medical/readme.md)
     - [CRVO](real/medical/crvo.md)
   - [Stories](real/stories/README.md)
