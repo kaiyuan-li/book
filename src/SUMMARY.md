@@ -21,4 +21,3 @@
   - [Medical](real/medical/readme.md)
     - [CRVO](real/medical/crvo.md)
   - [Stories](real/stories/README.md)
-    - [妃子笑](real/stories/妃子笑.md)
