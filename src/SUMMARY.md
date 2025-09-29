@@ -5,6 +5,8 @@
   - [Development](virtual/development/README.md)
     - [Editor](virtual/development/editor.md)
     - [Git](virtual/development/git/readme.md)
+    - [Codex CLI](virtual/development/agent/codex.md)
+      - [Fork & PR Workflow](virtual/development/git/fork.md)
   - [Programming](virtual/programming/README.md)
     - [Rust](virtual/programming/rust/readme.md)
       - [Tokio](virtual/programming/rust/tokio.md)
