@@ -8,4 +8,3 @@ title = "Hungry"
 [output.html]
 mathjax-support = true
 additional-js = ["theme/reading-position.js"]
-additional-css = ["theme/novel.css"]
